@@ -28,13 +28,7 @@ def is_valid_url(url):
     else:
         print("URL is invalid")
     return False
-    # try:
-    #     response = session.get(url, allow_redirects=True, timeout=5)
-    #     print(f"response: {response}")
-    #     return response.status_code == 200
-    # except requests.RequestException as e:
-    #     print(f"Request failed: {e}")
-    #     return False
+
 
 def check_wayback_machine(url):
     """
