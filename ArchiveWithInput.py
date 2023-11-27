@@ -16,7 +16,7 @@ while True:
     else:
         print("Invalid URL:", url)
 
-output_pdf_directory = os.path.join(os.path.expanduser("~"), "Desktop", "hi")
+output_pdf_directory = os.path.join(os.path.expanduser("~"), "Desktop", "ICPC_Archive")
 
 if not os.path.exists(output_pdf_directory):
     os.makedirs(output_pdf_directory)
