@@ -34,9 +34,17 @@ If Python 3 is installed, you will see the version number. If not, you will need
 
 ## Running the Script
 
-After confirming that Python 3 is installed, run the following command in this directory:
+After confirming that Python 3 is installed, run the following command(s) in this directory:
+
+If you wish to Archieve the pdf by entering the link at the command line:
 
 ```bash
-python3 main.py
+python3 ArchieveWithInput.py
+```
+
+If you wish to Archieve the pdf by entering a text file:
+
+```bash
+python3 ArchieveWithTxtFile.py
 ```
 
