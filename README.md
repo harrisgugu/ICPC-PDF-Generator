@@ -8,8 +8,6 @@ Before running the script, ensure that Python 3 is installed on your system. Ope
 
 ```bash
 python3 --version
-
-
 ```
 ## Additional Requirements
 
